@@ -1,7 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import Button from '@/components/Button';
 import { FiPhone, FiMapPin, FiClock } from 'react-icons/fi';
 
 export default function ContactPage() {
@@ -83,17 +82,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Trade Accounts */}
-            <div className="bg-primary text-white p-6 rounded-lg mt-8">
-              <h3 className="text-xl font-semibold mb-2">Trade Accounts</h3>
-              <p className="text-gray-300 mb-4">
-                Are you a trade professional? We offer special pricing and terms for 
-                registered trade accounts.
-              </p>
-              <Button href="/trade" variant="secondary" size="sm">
-                Learn More →
-              </Button>
-            </div>
+            {/* Trade Accounts card removed as requested */}
           </div>
 
           {/* Map Column */}

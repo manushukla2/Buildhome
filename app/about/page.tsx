@@ -137,11 +137,7 @@ export default function AboutPage() {
       {/* Statistics */}
       <div className="bg-primary text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-5xl font-bold text-gold mb-2">25+</div>
-              <p className="text-gray-300">Years Experience</p>
-            </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 text-center">
             <div>
               <div className="text-5xl font-bold text-gold mb-2">10K+</div>
               <p className="text-gray-300">Happy Customers</p>
