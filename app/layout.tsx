@@ -18,6 +18,17 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Build Homes - Premium Bathroom Accessories",
   description: "Build Homes — specialist in hand-finished composite stone bathware with a 25 year guarantee",
+  icons: {
+    icon: [
+      { url: "/logobuildhome.png", type: "image/png" },
+    ],
+    shortcut: [
+      { url: "/logobuildhome.png", type: "image/png" },
+    ],
+    apple: [
+      { url: "/logobuildhome.png", type: "image/png" },
+    ],
+  },
 };
 
 export default function RootLayout({
