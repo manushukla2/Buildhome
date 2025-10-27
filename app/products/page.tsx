@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from 'react';
+import { Suspense, useMemo, useState } from 'react';
 import Image from 'next/image';
 import ProductCard from '@/components/ProductCard';
 import { useSearchParams } from 'next/navigation';
@@ -109,6 +109,14 @@ const allProducts = [
 ];
 
 export default function ProductsPage() {
+  return (
+    <Suspense fallback={<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center text-gray-500">Loading products…</div>}>
+      <ProductsContent />
+    </Suspense>
+  );
+}
+
+function ProductsContent() {
   const [selectedCategory, setSelectedCategory] = useState('ALL');
   const params = useSearchParams();
   const searchTerm = (params.get('q') || '').toLowerCase();
@@ -208,9 +216,9 @@ export default function ProductsPage() {
               <p className="text-gray-300">On all orders over £500</p>
             </div>
             <div>
-              <div className="text-gold text-4xl mb-4">✓</div>
-              <h3 className="text-xl font-semibold mb-2">25 YEAR GUARANTEE</h3>
-              <p className="text-gray-300">Peace of mind with every purchase</p>
+              <div className="text-gold text-4xl mb-4">🤝</div>
+              <h3 className="text-xl font-semibold mb-2">DEDICATED SUPPORT</h3>
+              <p className="text-gray-300">Expert guidance at every step</p>
             </div>
             <div>
               <div className="text-gold text-4xl mb-4">💎</div>
