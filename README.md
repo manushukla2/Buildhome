@@ -1,4 +1,4 @@
-# Build Home - Premium Bathroom Accessories Website
+# Build Home Enterprises - Premium Bathroom Accessories Website
 
 A modern, responsive Next.js website for bathroom accessories, inspired by professional e-commerce designs.
 

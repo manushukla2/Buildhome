@@ -7,7 +7,7 @@ export default function BrandLogo({
   width = 160,
   height = 48,
   className = "h-10 w-auto object-contain",
-  alt = "Build Home - Trust & Quality",
+  alt = "Build Home Enterprises - Trust & Quality",
   onDark = false,
   src: initialSrc = "/logobuildhome.png",
 }: {

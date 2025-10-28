@@ -24,10 +24,10 @@ const Header = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center py-3 gap-6">
             {/* Logo + Company Name */}
-                  <Link href="/" className="flex items-center gap-4" aria-label="Build Homes home">
+                  <Link href="/" className="flex items-center gap-4" aria-label="Build Home Enterprises home">
                     <BrandLogo width={1000} height={160} className="h-20 md:h-24 w-auto object-contain" />
                     <span className="inline-block font-serif font-bold tracking-wider text-base sm:text-lg md:text-2xl lg:text-3xl text-gray-900">
-                      Build Home Pvt Ltd
+                      Build Home Enterprises
                     </span>
                   </Link>
 

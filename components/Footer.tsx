@@ -14,8 +14,7 @@ const Footer = () => {
               <BrandLogo width={280} height={84} className="h-16 md:h-20 w-auto object-contain" onDark />
             </div>
             <h3 className="text-xl font-serif font-bold mb-4">
-              <span className="text-white">Build Home</span>
-              <span className="text-gold"> Pvt Ltd</span>
+              <span className="text-white">Build Home Enterprises</span>
             </h3>
             <p className="text-gray-300 text-sm mb-4">
               Specialist in hand-finished composite stone bathware. Premium quality for modern living.
@@ -97,7 +96,7 @@ const Footer = () => {
       <div className="border-t border-gray-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
-            <p>© 2025 Build Home Pvt Ltd. All rights reserved.</p>
+            <p>© 2025 Build Home Enterprises. All rights reserved.</p>
             <div className="flex space-x-6 mt-2 md:mt-0">
               <Link href="/privacy" className="hover:text-gold transition-colors">
                 Privacy Policy

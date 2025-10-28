@@ -43,7 +43,7 @@ export default function Home() {
     <div>
       {/* Hero Section */}
       <Hero
-        title="BUILD HOMES"
+        title="BUILD HOME ENTERPRISES"
         subtitle="Experience luxury with our hand-finished composite stone bathware"
         images={[
           'https://images.unsplash.com/photo-1620626011761-996317b8d101?w=1920&q=80',
@@ -66,7 +66,7 @@ export default function Home() {
               <span className="font-semibold">SPECIALIST</span> IN HAND FINISHED COMPOSITE STONE BATHWARE
             </p>
             <p className="text-lg">
-              <span className="font-semibold text-gold">PREMIUM QUALITY</span> BY BUILD HOME
+              <span className="font-semibold text-gold">PREMIUM QUALITY</span> BY BUILD HOME ENTERPRISES
             </p>
           </div>
         </div>
@@ -120,7 +120,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-serif font-bold mb-4">
-              WHY CHOOSE BUILD HOME
+              WHY CHOOSE BUILD HOME ENTERPRISES
             </h2>
           </div>
           

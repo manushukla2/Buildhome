@@ -89,12 +89,12 @@ export default function ContactPage() {
           <div>
             <div className="rounded-lg overflow-hidden shadow-lg h-[600px] bg-white">
               <iframe
-                title="Build Home Location Map"
+                title="Build Home Enterprises Location Map"
                 src="https://www.google.com/maps?q=AT+PO+Vishnupur+Titidha+PS-Barati+OP+Hajipur+Vaishali+Bihar&output=embed"
                 className="w-full h-full border-0"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                aria-label="Map showing Build Home address"
+                aria-label="Map showing Build Home Enterprises address"
               />
             </div>
           </div>

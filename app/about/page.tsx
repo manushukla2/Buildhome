@@ -7,7 +7,7 @@ export default function AboutPage() {
       <div className="relative h-96 w-full overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1920&q=80"
-          alt="About Build Home"
+          alt="About Build Home Enterprises"
           fill
           className="object-cover"
           priority
@@ -25,8 +25,8 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-serif font-bold text-primary mb-6">Our Story</h2>
-            <p className="text-gray-600 text-lg mb-4 leading-relaxed">
-                Founded with a passion for excellence, Build Homes has been at the forefront of 
+      <p className="text-gray-600 text-lg mb-4 leading-relaxed">
+        Founded with a passion for excellence, Build Home Enterprises has been at the forefront of 
               luxury bathroom design for over two decades. We specialize in hand-finished 
               composite stone bathware that combines traditional craftsmanship with modern aesthetics.
             </p>
@@ -126,7 +126,7 @@ export default function AboutPage() {
             </p>
             <div className="bg-gold bg-opacity-10 border-l-4 border-gold p-6 mt-6">
               <p className="text-primary font-semibold text-lg">
-                &ldquo;Every Build Homes product is a masterpiece of design and engineering, 
+                &ldquo;Every Build Home Enterprises product is a masterpiece of design and engineering, 
                 created to last a lifetime.&rdquo;
               </p>
             </div>
@@ -161,13 +161,13 @@ export default function AboutPage() {
             Our Commitment to Sustainability
           </h2>
           <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-            At Build Homes, we believe in creating beautiful products while protecting 
+            At Build Home Enterprises, we believe in creating beautiful products while protecting 
             our planet. Our composite stone materials are eco-friendly and sustainably 
             sourced. We minimize waste in our production process and use energy-efficient 
             manufacturing techniques.
           </p>
           <p className="text-gray-600 text-lg leading-relaxed">
-            By choosing Build Homes, you&apos;re not only investing in quality and style, 
+            By choosing Build Home Enterprises, you&apos;re not only investing in quality and style, 
             but also supporting a more sustainable future.
           </p>
         </div>
